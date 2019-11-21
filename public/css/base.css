@@ -3,7 +3,7 @@
     margin: 0;
 }
 html, body {
-    font-size: 16px;
+    font-size: 14px;
     font-family: "Microsoft YaHei", Arial, Helvetica, sans-serif, "SimSun";
     -webkit-text-size-adjust: none;
     height: 100%;
@@ -11,8 +11,8 @@ html, body {
 }
 
 body {
-    max-width: 500px;
-    min-width: 320px;
+    /*max-width: 500px;*/
+    /*min-width: 320px;*/
     text-align: center;
     margin: 0 auto;
     position: relative;
@@ -303,4 +303,18 @@ textarea::-webkit-input-placeholder {
     top: 50%;
     left: 50%;
     border-radius: 4px;
+}
+.logo{
+    width: 14rem;
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 1rem;
+    background: url(/images/logo/logo.png) 0 center no-repeat;
+    background-size: 7rem auto;
+}
+.header-nav{
+    background:#17A3EA;
+}
+.title{
+   color: #fff;
 }
