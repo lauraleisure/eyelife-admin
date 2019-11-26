@@ -46,7 +46,7 @@ class Main extends Component {
                     >
                         <Menu.Item key="1">
                             <Icon type="pie-chart" />
-                            <span>公司架构</span>
+                            <span>系统配置</span>
                         </Menu.Item>
                         <SubMenu
                             key="sub1"
@@ -93,7 +93,7 @@ class Main extends Component {
                         </SubMenu>
                         <Menu.Item key="2">
                             <Icon type="line-chart" />
-                            <span>网站配置</span>
+                            <span>页面配置</span>
                         </Menu.Item>
                         <Menu.Item key="3">
                         <Icon type="pie-chart" />
@@ -104,8 +104,8 @@ class Main extends Component {
                 {/*左侧菜单 end*/}
                 <Layout>
                     <Header className="header-nav flex-box jc-e ai-c" style={{color:'#fff'}}>
-                        <div class="username">Admin</div>
-                        <div class="logout"><a href="#">退出</a></div>
+                        <div className="menu-item username">Admin</div>
+                        <div className="menu-item logout"><a href="#">退出</a></div>
                     </Header>
                     <Content
                         style={{
